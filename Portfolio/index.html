@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+<div class="container">
+<nav>
+<img src="images/logo-1.png.jpg" class="logo" >
+<ul id="sidemenu">
+<li><a href="#header">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#Services">Services</a></li>
+<li><a href="#portfolio">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+<i class="fas fa-times" onclick="closemenu()"></i>
+</ul>
+<i class="fas fa-bars" onclick="openmenu()" ></i>
+</nav>
+<div class="header-text">
+<p>Web Developer</p>
+<h1>Hi, I'm <span>Deeksha</span> <br>Gangwar From India</h1>
+</div>
+</div>
+</div>
+<!------------about-->
+<div id="about">
+<div class="container">
+<div class="row">
+<div class="about-col-1">
+<img src="images/mypic1.jpg">
+</div>
+<div class="about-col-2">
+<h1 class="sub-title">About Me</h1>
+<p>I am a passionate Full Stack Developer with expertise in the MERN stack (MongoDB, Express.js, React.js, and Node.js), focused on creating dynamic, efficient, and user-centric web applications. I also have hands-on experience with AWS Cloud, allowing me to design and deploy scalable solutions.
+<br>With a strong understanding of Data Structures and Algorithms, I excel at writing optimized code and solving complex technical problems. I am committed to continuous learning and delivering impactful solutions that drive success.</p>
+<div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+<p class="tab-links" onclick="opentab('experience')"> Experience</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="Skills">
+<ul>
+    <li><span><i class="fas fa-code"></i></span> C</li>
+    <li><span><i class="fab fa-java"></i></span> Java</li>
+    <li><span><i class="fab fa-html5"></i></span> HTML</li>
+    <li><span><i class="fab fa-css3-alt"></i></span> CSS</li>
+    <li><span><i class="fab fa-js"></i></span> JavaScript</li>
+    <li><span><i class="fab fa-react"></i></span> React</li>
+    <li><span><i class="fab fa-node"></i></span> Express</li>
+    <li><span><i class="fab fa-node-js"></i></span> Node</li>
+    <li><span><i class="fas fa-database"></i></span> MySQL</li>
+    <li><span><i class="fas fa-leaf"></i></span> MongoDB</li>
+    <li><span><i class="fas fa-pencil-ruler"></i></span> Tailwind CSS</li>
+    <li><span><i class="fab fa-bootstrap"></i></span> Bootstrap</li>
+    <li><span><i class="fas fa-cloud"></i></span> AWS Cloud</li>
+</ul>
+</div>
+<div class="tab-contents" id="experience">
+<ul>
+<li><span>04-07-2024 to 31-08-2024</span><br>AWS Cloud Internship at Ethical Learners</li>
+<li><span>04-07-2024 to 31-08-2024</span><br>Web
+Developpment remote Internship at Teachnook</li>
+</ul>
+</div>
+
+<div class="tab-contents" id="education">
+<ul>
+<li><span>2021-2025</span><br>B.tech (CSE) from IMS Engineering College</li>
+<li><span>2019-2020</span><br>Intermediate From Brij Bhushan Lal Public School</li>
+<li><span>2017-2018</span><br>High School From St. Thomas School</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<!----------services---------->
+<div id="Services">
+<div class="container">
+<h1 class="sub-title">My Services</h1>
+<div class="services-list">
+<div>
+<h2>Web Design</h2>
+
+<p>I specialize in crafting visually stunning and user-friendly websites that are tailored to meet your unique needs. My designs are modern, fully responsive, and optimized for all devices, ensuring a seamless user experience. From intuitive navigation to aesthetic appeal, I focus on creating websites that not only look great but also perform exceptionally well. Whether it's a personal portfolio, an e-commerce platform, or a business website, I work to bring your ideas to life with the latest technologies and trends.</p>
+<a href="#">Learn more</a>
+</div>
+<div>
+
+<h2>Cloud Computing</h2>
+
+<p>With a strong foundation in AWS Cloud solutions, I provide reliable and scalable cloud computing services to support businesses in improving their operations. My skills include setting up and managing AWS infrastructure, offering secure data storage and backup solutions, creating serverless applications using AWS Lambda and API Gateway, and implementing essential security measures. By leveraging AWS, I aim to deliver cost-effective and innovative solutions to help businesses grow and succeed.</p>
+<a href="#">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+<!------portfolio-------->
+<div id="portfolio">
+<div class="container">
+<h1 class="sub-title">My Work</h1>
+<div class="work-list">
+<div class="work">
+<img src="images/bookimg.jpg">
+<div class="layer">
+<h3>BookEnclave </h3>
+<p>The objective of BookEnclave is to create a centralized online platform (website) where students from all domains can easily access reliable and well-organized study materials. It provides PDFs and notes on a variety of topics, including AWS Cloud, HTML, CSS, JavaScript, and more. </p>
+<a href="#"><i class="fas fa-external-link-alt"></i></a>
+</div>
+</div>
+<div class="work">
+<img src="images/sudoku.jpg">
+<div class="layer">
+<h3>Sudoku Solver </h3>
+<p>A Java project that uses a backtracking algorithm to solve any partially filled Sudoku puzzle and provides a valid solution. The project also includes error handling to notify the user if the puzzle is unsolvable. After solving the puzzle, the program prints the completed Sudoku grid. The code is structured for readability and maintainability, with reusable methods for validation, checking constraints, and printing the board. This project is a robust and interactive tool for solving Sudoku puzzles efficiently.</p>
+<a href="#"><i class="fas fa-external-link-alt"></i></a>
+</div>
+</div>
+</div>
+<a href="#" class="btn">See more</a>
+</div>
+</div>
+</div>
+<!----contact-------->
+<div id="contact">
+<div class="container">
+<div class="row">
+<div class="contact-left">
+<h1 class="sub-title">Contact Me</h1>
+<p><i class="fas fa-paper-plane"></i>deeksha02288@gmail.com</p>
+<P><i class="fas fa-phone-square-alt"></i>+91-7017958449</P>
+<div class="social-icons">
+<a href=""><i class="fab fa-linkedin"></i>www.linkedin.com/in/
+deeksha-gangwar-131414258
+</a>
+</div>
+<a href="images/DeekshaResume.pdf" download class="btn btn2">Download CV</a>
+</div>
+<div class="contact-right">
+<form name="submit-to-google-sheet">
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+</div>
+</div>
+</div>
+<div class="copyright">
+<p>Copyright &copy; Made with <i class="fas fa-heart"></i>by Easy Tutorials </p>
+</div>
+</div>
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName
+("tab-contents");
+function opentab(tabname){
+for(tablink of tablinks){
+tablink.classList.remove("active-link");
+}
+for(tabcontent of tabcontents){
+tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+sidemenu.style.right="0";
+}
+function closemenu(){
+sidemenu.style.right="-200px";
+}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwbJPTTH7-OXe6a17X68Mi5dkOrbvJ0phqSVl4b1pHviFgCvkgZQ_o12eR1eex146O3jw/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+msg.innerHTML = "Message sent successfully"
+setTimeout(function(){
+msg.innerHTML=""
+},5000)
+form.reset()
+} )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
